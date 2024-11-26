@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div & span in html5</title>
+    <style>
+        div {
+            border: 1px solid rgb(0, 0, 117);
+        }
+        span.b {
+            border: 1px solid saddlebrown;
+        }
+    </style>
+</head>
+<body>
+    <!-- if inside of span has a other tag ,it's line space -->
+     <span class="b">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+     <span class="b">\ Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+    <!-- if span doesn't have a other tag, it's not line space -->
+    <span class="a" style="color: brown;">
+        <h1>This is span tag</h1>
+        <p>Lorem ipsum dolor sit.</p>
+    </span>
+    <span class="a" style="color: gray;">
+        <h1>Html5</h1>
+        <p>Lorem ipsum dolor sit.</p>
+    </span>
+    <span class="a" style="color: brown;">
+        <h1>CSS</h1>
+        <p>Lorem ipsum dolor sit.</p>
+    </span>
+    <span class="" style="color: gray;">
+        <h1>JS</h1>
+        <p>Lorem ipsum dolor sit.</p>
+    </span>
+
+    <!-- div, it's a line space when has a new div -->
+     <div style="color: rgb(216, 140, 0);">Hello Html5</div>
+     <div style="color: rgb(31, 31, 179);">Hello CSS</div>
+     <div style="color: goldenrod;">Hello Javascript</div>
+</body>
+</html>

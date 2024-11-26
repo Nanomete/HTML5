@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in html5</title>
+</head>
+<body>
+    <h1>Product Table</h1>
+    <table border="1" width="50%" cellpadding="13" cellspacing="0">
+        <thead> <!-- Head of table-->
+            <!-- column -->
+            <th>QRCode</th>
+            <th>Product photos</th>
+            <th>Name</th>
+            <th bgcolor="gold">Price</th>
+            <th>Buy</th>
+        </thead>
+        <tbody>
+            <!-- row -->
+            <tr>
+                <td >12225555555</td>
+                <td><img width="200px" height="200px" src="https://images.pexels.com/photos/34407/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></td>
+                <td align="center">SPhone</td>
+                <td>500$</td>
+                <td rowspan="2" align="center">
+                    <a href="#">Buy</a>
+                </td>
+            </tr>
+            <!-- row -->
+            <tr bgcolor="info">
+                <td>123445554333</td>
+                <td><img width="200px" height="200px" src="https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></td>
+                <td>Scar</td>
+                <td>50000$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5" align="right">Result Price : 50500$</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Attribute of table -->
+     <!-- 
+        bgcolor="" -> background color
+        width="" -> width of table
+        colspace="" -> mix columns cell
+        rowspace="" -> mix rows cell
+        align="" -> position of item in table (left, center, right)
+        Cellpadding -> setting space inside table
+        Cellspacing -> setting size line of table
+     -->
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video in HTML5</title>
+    <style>
+        video {
+            width: 560px;
+            height: 315px;
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">HTML Video</h1>
+    <!-- in video tag have to has Attribute control for play video -->
+    <!-- type 1 inside folder -->
+    <video controls>
+        <!-- inside video tag has a source and type -->
+        <source src="video/Space.mp4" type="video/mp4">
+    </video>
+
+    <!-- type 2 inside folder -->
+    <video controls align="center" src="video/Space.mp4" autoplay></video>
+    <!-- autoplay mean when open web it auto playing video-->
+
+    <!-- type 3 outside folder from youtube-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0hfeNPM7piw?si=a1kzX0JKs6qmfMkP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

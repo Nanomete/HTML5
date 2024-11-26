@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html5 Form</title>
+</head>
+<body>
+    <h1 align="center">form sing up</h1>
+    <form action="" align="center">
+        <!-- input tags -->
+        <div>
+            <label for="FirstName">FirstName</label> <!--<label> is header name of input -->
+            <input type="text" placeholder="FirstName" required>
+        </div>
+        <div>
+            <label for="LastName">LastName</label>
+            <input type="text" placeholder="LastName" required>
+        </div>
+        <div>
+            <label for="E-mail">E-mail</label>
+            <input type="email" placeholder="E-mail" required>
+        </div>
+        <div>
+            <label for="Password">Password</label>
+            <input type="password" placeholder="Password" required>
+        </div>
+        <div>
+            <label for="Address">Address</label>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="Age">Age</label>
+            <input type="number" placeholder="Age">
+        </div>
+        <div>
+            <label for="Calendar">Calendar</label>
+            <input type="date" placeholder="Calendar">
+        </div>
+        <div>
+            <label for="Tellaphone">Tellaphone</label>
+            <input type="tel" placeholder="Tellaphone" required>
+        </div>
+        <div>
+            <label for="Colors">Colors</label>
+            <input type="color" placeholder="Colors">
+        </div>
+        <div>
+            <label for="Range">Range</label>
+            <input type="range" placeholder="Range" value="1">
+        </div>
+        <div>
+            <label for="Gender">Gender</label>
+            <input name="Gender" type="radio"> Male
+            <input name="Gender" type="radio"> Female
+            <input name="Gender" type="radio"> Other
+            <!-- setting name in input tag for select only one choice -->
+        </div>
+
+        <!-- select tags -->
+        <div>
+            <label for="Educated">Educated</label>
+            <select name="Educated" id="">
+                <option value="Middle school" selected>Middle school</option>
+                <option value="High school">High school</option>
+                <option value="Senior">Senior</option>
+            </select>
+        </div>
+
+        <!-- input tags -->
+        <div>
+            <label for="Agree">Agree :</label>
+            <input type="checkbox" required>
+        </div>
+        <div>
+            <label for="Document">Document file :</label>
+            <input type="file">
+        </div>
+        <div>
+            <label for="Link">Link website :</label>
+            <input type="url">
+        </div>
+        <div>
+            <!-- can use input or button a both -->
+            <input type="Submit" value="Submit">
+            <button type="reset">cancel</button>
+        </div>
+    </form>
+</body>
+</html>
